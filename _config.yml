@@ -34,7 +34,7 @@ exclude:
 - bower.json
 - deploy
 - go
-- pages/private/README.md
+- pages/hub-private/README.md
 - vendor
 
 permalink: pretty
@@ -66,8 +66,8 @@ description: "The go-to place for all team information "
 generated_page_title_format: '%s &mdash; Lovely Hub'
 
 # private data
-private_data_path: _data/private
-private_pages_path: pages/private
+private_data_path: _data/hub-private
+private_pages_path: pages/hub-private
 
 # team member images
 team_img_dir: assets/images/team
@@ -87,11 +87,11 @@ defaults:
         branch: master
   -
     scope:
-      path: "pages/private"
+      path: "pages/hub-private"
     values:
       edit_info:
-        repo: 18F/hub-pages-private
-        prefix: pages/private/
+        repo: TeamLovely/hub-private
+        prefix: pages/hub-private/
 
 editor_url: https://github.com/
 midas_url: "https://openopps.digitalgov.gov"
