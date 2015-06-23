@@ -15,6 +15,19 @@
 # @author Mike Bland (michael.bland@gsa.gov)
 
 require 'jekyll-assets'
+# Monkey-patch jekyll-assets so it doesn't drop duplicate files.
+module FixSitePatch
+  def self.included(base)
+    base.class_eval do
+      alias_method :write, :__my_write
+    end
+  end
+  def __my_write
+    static_files.push(*asset_files)
+    __orig_write
+  end
+end
+Jekyll::Site.send :include, FixSitePatch
 
 module Hub
 
