@@ -43,25 +43,27 @@ tag_title_prefix: "#"
 
 sass:
   sass_dir: assets/_sass
-  style: compressed
+  # change this back to compressed after development
+  style: expanded
 
 assets:
   # The following two lines can be commented out while developing, to speed up
   # site generation and help with debugging in the browser.
-  js_compressor: uglifier
-  css_compressor: sass
+  # js_compressor: uglifier
+  # css_compressor: sass
   sources:
     - assets/js
     - assets/css
+    - assets/images
   cache: true
 
 # use where a full URL is appropriate (e.g. RSS, OG tags)
-url: https://hub.18f.gov
+url: https://livelovely.com
 
 # metadata
-title: 18F Hub
+title: Lovely Hub
 description: "The go-to place for all team information "
-generated_page_title_format: '%s &mdash; 18F Hub'
+generated_page_title_format: '%s &mdash; Lovely Hub'
 
 # private data
 private_data_path: _data/private
