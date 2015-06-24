@@ -83,7 +83,7 @@ defaults:
     values:
       layout: "bare"
       edit_info:
-        repo: 18F/hub
+        repo: TeamLovely/hub
         branch: master
   -
     scope:
