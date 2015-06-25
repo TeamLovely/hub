@@ -2,7 +2,7 @@
   <div class="team-member">
     <div class="team-member-cell">
       {% capture img_basename %}{{ member.image | split:"/" | last }}{% endcapture %}
-      <a href="{{ site.baseurl }}/team/{{ member.name }}"><img class="team-member-thumb" src="{{ site.baseurl }}/{{ member.image }}" alt="{% if img_basename == site.missing_team_member_img %}18F logo, {{ member.full_name }} photo missing{% else %}{{ member.full_name }}{% endif %}"></a>
+      <a href="{{ site.baseurl }}/team/{{ member.name }}"><img class="team-member-thumb" src="{{ site.baseurl }}/{{ member.image }}" alt="{% if img_basename == site.missing_team_member_img %}Lovely logo, {{ member.full_name }} photo missing{% else %}{{ member.full_name }}{% endif %}"></a>
     </div>
     <div class="team-member-info">
       <a href="{{ site.baseurl }}/team/{{ member.name }}">{{ member.full_name }}</a>{% if member.location %} -
