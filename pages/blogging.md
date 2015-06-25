@@ -4,6 +4,10 @@ permalink: /blogging/
 ---
 # {{ page.title }}
 
+TO DO: implement an engineering blog!
+
+From the folks at 18F:
+
 At 18F we keep a private GitHub repo for kicking around ideas on the blog. This is how we use that repo.
 
 We use milestones for workflow tracking:

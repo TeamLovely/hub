@@ -10,7 +10,7 @@ work, read [Internal vs. Public Hubs](/101/internal-vs-public/).
 ## How to add or edit a public or private Guideline
 
 
-## How to add or edit a "How-To", "Tip", or "New to 18F?" note
+## How to add or edit a "How-To", "Tip", or "New to Lovely?" note
 
 ## How to edit team information
 
