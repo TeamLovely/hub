@@ -1,19 +1,19 @@
 - name: Public Sites
   links:
-  - text: 18f.gsa.gov
-    url: https://18f.gsa.gov/
-  - text: Dashboard
-    url: https://18f.gsa.gov/dashboard/
+  - text: LiveLovely
+    url: https://livelovely.com
+  - text: Lovely Direct
+    url: https://leasing.livelovely.com
   - text: GitHub repos
-    url: https://github.com/18F
+    url: https://github.com/TeamLovely
 
 - name: Hub Ops
   links:
   - text: Repo
-    url: https://github.com/18F/hub/
+    url: https://github.com/TeamLovely/hub/
   - text: Issues
-    url: https://github.com/18F/hub/issues
-  - text: Doc WG issues
-    url: https://trello.com/b/cI4LmXOj/wg-documentation
+    url: https://github.com/TeamLovely/hub/issues
   - text: Deployment
-    url: https://github.com/18F/hub/blob/master/deploy/README.md
+    url:
+  - text: 18F Hub
+    url: https://github.com/18F/hub
