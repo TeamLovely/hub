@@ -36,7 +36,7 @@ module Hub
     end
 
     def self.generate_pages(site)
-      snippets = site.data['snippets'].each || {}
+      snippets = site.data['snippets'] || {}
       snippets.each do |timestamp, snippets|
         page = ::TeamHub::Page.generate(site, 'snippets', "#{timestamp}.html",
           "snippets.html",
