@@ -1,6 +1,8 @@
 [submodule "_data/hub-private"]
 	path = _data/hub-private
-	url = https://github.com/TeamLovely/hub-private/
+	url = git@github.com:TeamLovely/hub-private.git
+    branch = master
 [submodule "pages/hub-private"]
 	path = pages/hub-private
-	url = https://github.com/TeamLovely/hub-private/
+	url = git@github.com:TeamLovely/hub-private.git
+    branch = master
