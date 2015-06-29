@@ -1,0 +1,26 @@
+name: sambone
+full_name: Sam Bolgert
+first_name: Sam
+last_name: Bolgert
+github: linuxlewis
+project: Rent LA
+email: sam@livelovely.com
+bio: Sam was the 2nd engineering hire at Lovely. He's responsible for most of the legacy code issues (oops) and has a deep love for python. These days he spends his time working on Rent LA and mentoring other engineers.
+skills:
+  - Django
+  - Python
+  - Postgresql
+  - docker
+  - ubuntu
+  - bash
+  - DevOps
+  - Rails
+  - Ruby
+interests:
+  - Mentorship
+  - Programming
+  - Skiing
+  - Standup Comedy
+  - Escape Games
+  - Real Estate
+  - Politics
