@@ -1,0 +1,14 @@
+---
+project: Rent LA
+name: Rent LA
+github:
+  - rentpath/rent-la
+  - rentpath/rent-la-api
+description: We will be delivering a pipeline of consumer product functionality into the Rent.com platform that supports the achievment of the market place for renters.
+milestones:
+contact:
+stack: Rails, Reactjs
+team: sambone, chris, caleb, zain, yong, affan, riley, ashley, casey, serena, george, kaili, allison, ali
+links:
+  - https://sites.google.com/a/rentpath.com/rent-2/home
+status:
