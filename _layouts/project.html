@@ -13,8 +13,6 @@ layout: bare
 		</p>
 	{% endif %}
 
-	{% unless proj.status == "Hold" %}
-	<p><a href="https://18f.gsa.gov/dashboard/project/{{ proj.name }}">Public Dashboard</a></p>{% endunless %}
 
 	{% if proj.github and proj.github.length != 0 %}
 	<section class="hub-page-section">
@@ -23,6 +21,19 @@ layout: bare
 		<ul>
 			{% for repo in proj.github %}
 				<li><a href="https://github.com/{{ repo }}">{{ repo }}</a></li>
+			{% endfor %}
+		</ul>
+
+	</section>
+	{% endif %}
+
+	{% if proj.links and proj.links.length != 0 %}
+	<section class="hub-page-section">
+
+		<h1>Links</h1>
+		<ul>
+			{% for link in proj.links %}
+				<li><a href="{{ link }}">{{ link }}</a></li>
 			{% endfor %}
 		</ul>
 
