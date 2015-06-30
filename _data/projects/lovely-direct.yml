@@ -5,8 +5,7 @@ github:
 - TeamLovely/leasing-public
 - TeamLovely/leasing-private
 - TeamLovely/leasing-common
-description: At the core, Communicart (a.k.a. C2) is simple tool to automate and manage
-  approval workflows, with use cases implemented for GSA purchase approvals.
+description: With Lovely Direct, we do all the legwork and you just sit back and collect the rent checks. It's that easy. From marketing and pricing to open houses and applicant screening, we're a landlord's best friend.
 milestones: 
 contact:
 stack: Django, Angular
