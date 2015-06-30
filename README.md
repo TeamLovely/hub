@@ -57,6 +57,14 @@ Feel free to ping [Kat](https://github.com/coderkat) with any questions you
 may have about our LovelyHub, especially if the current documentation should've addressed your
 needs, but didn't.
 
+### Deploying
+Our S3 bucket lives at: http://hub.livelovely.com.s3-website-us-east-1.amazonaws.com/
+To deploy your changes, make sure you have the latest changes to master locally, then:
+
+1. cd to the hub/_site directory
+2. copy files to AWS:
+    $ aws s3 cp . s3://hub.livelovely.com --recursive
+
 ### Public domain
 
 This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
