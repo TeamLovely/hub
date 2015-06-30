@@ -45,9 +45,10 @@ ol {
   float: left;
   width: 100%;
   height: 66px;
-  padding-top: 10px;
+  padding-top: 20px;
   margin-bottom: 25px;
-  background: #ee5a3d;
+  border-bottom: 3px solid #444444;
+  background: #333333;
   ul {
     width: 100%;
     list-style: none;
@@ -371,11 +372,11 @@ ul.main-nav {
 
   li {
     color: #ffffff;
-    background-color: #ee5a3d;
+    background-color: #333;
     border-bottom: 2px solid #ffffff;
     margin-left: 1em;
     margin-bottom: 0;
-    padding: 2.5em 5em;
+    padding: 1.5em 5em;
 
     a {
       color: #ffffff;
@@ -403,7 +404,7 @@ footer ul {
 	li {
 		display: inline;
 		font-size: 125%;
-		font-weight: bold;
+		font-weight: regular;
 		padding: 0 1em;
 		border-right: 2px solid #fff;
 	}
