@@ -59,7 +59,11 @@ needs, but didn't.
 
 ### Deploying
 Our S3 bucket lives at: http://hub.livelovely.com.s3-website-us-east-1.amazonaws.com/
-To deploy your changes, make sure you have the latest changes to master locally, then:
+To deploy your changes, make sure you have the latest changes to master locally and run:
+    `./go init` and
+    `./go serve`
+    These will build out a local _site directory.
+Then:
 
 1. cd to the hub/_site directory
 2. copy files to AWS:
