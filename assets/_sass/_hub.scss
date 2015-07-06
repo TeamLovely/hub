@@ -58,21 +58,20 @@ ol {
   li {
     display: inline-block;
     font-weight: 500;
+    float: left;
   }
   a {
     color: white;
     text-decoration: none;
-    padding: 28px 15px 5px 15px;
+    padding: 3px 20px 5px 15px;
+    float: left;
     &:hover, &:focus {
       background: $dark-gray;
     }
     img {
-      width: 45px;
-    }
-  }
-  a:first-of-type {
-    &:hover, &:focus {
-      background: lighten($blue, 10%);
+      width: 100px;
+      height: 100%;
+      padding-left: 20px;
     }
   }
 }
@@ -406,7 +405,7 @@ footer ul {
 		font-size: 125%;
 		font-weight: regular;
 		padding: 0 1em;
-		border-right: 2px solid #fff;
+		border-right: 1px solid #fff;
 	}
 
 	li:last-child {
