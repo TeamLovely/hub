@@ -1,0 +1,7 @@
+---
+resource: EngineeringSharedResources
+name: Shared Engineering Resources
+github:
+- TeamLovely/lovely-shared-resources
+description: Resources for mac setup, packaging guidelines, and versioning.
+links:

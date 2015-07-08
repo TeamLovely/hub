@@ -17,10 +17,10 @@
 require 'team_hub/page'
 
 module Hub
-  class Departments
+  class Resources
     def self.generate_pages(site)
-      ::TeamHub::Page.generate_collection_item_pages(site, 'departments',
-        'department', 'name', primary_key: 'name')
+      ::TeamHub::Page.generate_collection_item_pages(site, 'resources',
+        'resource', 'name', primary_key: 'name')
     end
   end
 end

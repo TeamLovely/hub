@@ -1,0 +1,43 @@
+---
+layout: bare
+---
+{% assign res = page.resource %}
+
+<div>
+
+    <h1>{{ res.project }}</h1>
+
+    {% if res.description %}
+        <p>
+        {{ res.description }}
+        </p>
+    {% endif %}
+
+
+    {% if res.github and res.github.length != 0 %}
+    <section class="hub-page-section">
+
+        <h1>GitHub Repos</h1>
+        <ul>
+            {% for repo in res.github %}
+                <li><a href="https://github.com/{{ repo }}">{{ repo }}</a></li>
+            {% endfor %}
+        </ul>
+
+    </section>
+    {% endif %}
+
+    {% if res.links and res.links.length != 0 %}
+    <section class="hub-page-section">
+
+        <h1>Links</h1>
+        <ul>
+            {% for link in res.links %}
+                <li><a href="{{ link }}">{{ link }}</a></li>
+            {% endfor %}
+        </ul>
+
+    </section>
+    {% endif %}
+
+</div>

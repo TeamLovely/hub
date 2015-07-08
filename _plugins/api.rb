@@ -30,7 +30,7 @@ module Hub
         generate_locations_endpoint(site),
         generate_pages_endpoint(site),
         generate_projects_endpoint(site),
-        generate_departments_endpoint(site),
+        generate_resources_endpoint(site),
         generate_working_groups_endpoint(site),
         generate_pif_team_endpoint(site),
         generate_pif_projects_endpoint(site),
@@ -104,12 +104,12 @@ module Hub
         'Project info, indexed by short project name', data)
     end
 
-    def self.generate_departments_endpoint(site)
-      departments = site.data['departments']
-      return if !departments or departments.empty?
-      generate_endpoint(site, 'departments', 'Departments',
-        'Department info, indexed by department name',
-        create_filtered_hash(departments, 'name', ['links'], {}))
+    def self.generate_resources_endpoint(site)
+      resources = site.data['resources']
+      return if !resources or resources.empty?
+      generate_endpoint(site, 'resources', 'Resources',
+        'Resource info, indexed by resource name',
+        create_filtered_hash(resources, 'name', ['links'], {}))
     end
 
     def self.generate_working_groups_endpoint(site)

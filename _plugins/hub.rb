@@ -43,7 +43,7 @@ module Hub
 
       Team.generate_pages(site)
       Projects.generate_pages(site)
-      Departments.generate_pages(site)
+      Resources.generate_pages(site)
       WorkingGroups.generate_pages(site)
       Snippets.generate_pages(site)
       # Disabled in favor of templated pages in `/pages/`
