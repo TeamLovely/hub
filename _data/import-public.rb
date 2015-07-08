@@ -26,7 +26,7 @@
 # Date:   2014-12-22
 
 DATA_DIR = File.dirname __FILE__
-['departments', 'projects', 'team', 'working_groups'].each do |dir|
+['resources', 'projects', 'team', 'working_groups'].each do |dir|
   pattern = File.join DATA_DIR, 'private', dir, '*.yml'
   files = Dir.glob(pattern).join ' '
   exit $?.exitstatus unless system(

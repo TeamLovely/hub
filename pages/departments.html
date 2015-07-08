@@ -1,12 +1,12 @@
 ---
-permalink: departments/
-title: Departments
+permalink: resources/
+title: Resources
 ---
 <h1>{{ page.title }}</h1>
 
-{% for d in site.data.departments %}
+{% for d in site.data.resources %}
 <div class="index-entry">
-<strong><a href="{{ site.baseurl }}/departments/{{ d.name | canonicalize }}">{{ d.name }}</a></strong><br/>
+<strong><a href="{{ site.baseurl }}/resources/{{ d.name | canonicalize }}">{{ d.name }}</a></strong><br/>
 {% if d.description %}<br/>{{ d.description }}{% endif %}
 {% if d.leads %}{% assign member_separator = ', ' %}{% assign members = d.leads %}Leads:{% include team_members_short.html %}<br/>{% endif %}
 </div>

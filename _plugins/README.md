@@ -64,7 +64,7 @@ class from [page.rb](page.rb).
 
 - [projects.rb](projects.rb)
 
-- [departments.rb](departments.rb)
+- [resources.rb](resources.rb)
 
 - [working_groups.rb](working_groups.rb)
 
