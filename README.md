@@ -56,7 +56,7 @@ work with the Hub development environment.
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
-Feel free to ping [Kat](https://github.com/coderkat) with any questions you
+Feel free to ping [Kat](mailto:kat@livelovely.com) with any questions you
 may have about our LovelyHub, especially if the current documentation should've addressed your
 needs, but didn't.
 
