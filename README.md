@@ -20,7 +20,10 @@ eventually hand ownership over to the [Documentation Working
 Group](https://18f.gsa.gov/hub/wg/documentation), or to the 18F team as a
 whole.
 
-Team Lovely's Hub repository is https://github.com/TeamLovely/hub.
+Team Lovely's Hub repository is https://github.com/TeamLovely/hub, and the primary
+maintainer (for now) is [@coderkat](https://github.com/coderkat). Please use 
+our Hub [trello board](https://trello.com/b/zBFrfrLN/hub) to report any
+issues or feature requests, or feel free to make changes and open a PR!
 
 ### Generating the site/hosting locally
 
