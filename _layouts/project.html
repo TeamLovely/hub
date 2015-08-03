@@ -53,4 +53,22 @@ layout: bare
 	</section>
 	{% endif %}
 
+	{% if proj.analytics_text and proj.analytics_text.length != 0 %}
+	<section class="hub-page-section">
+
+	<h1>Data and Analytics</h1>
+	<ul>
+		<p>
+		{{ proj.analytics_text }}
+		</p>
+	</ul>
+	<ul>
+		{% for link in proj.analytics_links %}
+			<li><a href="{{ link }}">{{ link }}</a></li>
+		{% endfor %}
+	</ul>
+
+	</section>
+	{% endif %}
+
 </div>

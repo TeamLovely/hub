@@ -12,6 +12,8 @@ milestones:
 contact:
 stack: Django, Angular
 team: kat, tyler, diego, ryan, caleb
+analytics_text: Our team's data and analytics live here!
+analytics_links:
 links:
 - https://leasing.livelovely.com
 status:
